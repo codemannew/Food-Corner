@@ -1,0 +1,69 @@
+body { background: url("cover.jpg");
+		background-size: :cover;
+		background-attachment: fixed;
+		background-position: center;}
+#cover { height:100%;
+			width:100%;
+           display:table;
+       }
+
+#coverpic { width: 23em;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+				}
+#header p { font-size: 30px;
+           color: red!important;
+		   font-style: italic;
+}
+
+#header a:hover{ color: yellow!important;
+					border: 3px solid black;
+}
+#header a { color: black!important;
+		text-decoration: none;
+			}
+#header #coverpic button { opacity: 0.8;}	
+.navbar {  opacity:0.4;}
+.navbar button:hover { background-color: red!important;}
+.navbar-brand { color: black!important;}
+.navbar a:not(navbar-brand){ color: red;}
+.col-md-4 { position: relative;}
+#food img{ height:100%;
+			width: 30rem;
+border-bottom: 2px red solid;
+border-radius: 1em;
+transition:transform 1s ease-in-out;}
+#food img:hover{ opacity: 0.8;
+transform: scale(1.10);}
+#food h2{ position: absolute;
+			top: 50%;
+left:40%;
+transform: translate(-50%,-50%);
+color:black!important;
+font-style: italic;
+display:none;
+}
+#food .col-md-6:hover h2{ display: block;}
+#input { position:relative;}
+#remarks button { 
+					position:relative;
+					top: 50%;
+left:40%;
+transform: translate(-25%,-10%);}
+
+#remarks #subscribe a:hover{ border:none;
+								color: blue!important; 
+								}
+								#remarks button:hover{ opacity: 0.7;}
+#last { background: url("tuna.jpg" );background-repeat:no-repeat;background-position:center;
+			color: red!important;
+			font-weight: bold;}								
+
+
+
+				
+			
+				
+		
+		

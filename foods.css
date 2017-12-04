@@ -1,0 +1,8 @@
+#carouselExampleSlidesOnly  { position: absolute;
+								left:35%;}
+body {background-image: url("cover2.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+
+	}								
+#header { font-size: bold; }	
